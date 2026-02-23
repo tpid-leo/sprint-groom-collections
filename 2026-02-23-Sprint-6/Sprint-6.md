@@ -41,9 +41,9 @@ description: "Grooming CMS Doctor: Patient Log, Create, Update, and History Requ
 ### 5.1 CMS
 #### 5.1.1 FE
 - [x] [Create UI List Create Doctor Request](Doctor-Create-Request-Approval/Create%20UI%20Detail%20Create%20Doctor%20Request.md)
-- [x] ([Integration UI List Create Doctor Request to API Get List Create Doctor Request](Doctor-Create-Request-Approval/Integration%20UI%20List%20Create%20Doctor%20Request%20to%20API%20Get%20List%20Create%20Doctor%20Request.md))
-- [x] ([Create UI Detail Create Doctor Request](Doctor-Create-Request-Approval/Create%20UI%20Detail%20Create%20Doctor%20Request.md))
-- [x] ([Integration UI Detail Create Doctor Request to API Get Detail Create Doctor Request](Doctor-Create-Request-Approval/Integration%20UI%20Detail%20Create%20Doctor%20Request%20to%20API%20Get%20Detail%20Create%20Doctor%20Request.md))
+- [x] [Integration UI List Create Doctor Request to API Get List Create Doctor Request](Doctor-Create-Request-Approval/Integration%20UI%20List%20Create%20Doctor%20Request%20to%20API%20Get%20List%20Create%20Doctor%20Request.md)
+- [x] [Create UI Detail Create Doctor Request](Doctor-Create-Request-Approval/Create%20UI%20Detail%20Create%20Doctor%20Request.md)
+- [x] [Integration UI Detail Create Doctor Request to API Get Detail Create Doctor Request](Doctor-Create-Request-Approval/Integration%20UI%20Detail%20Create%20Doctor%20Request%20to%20API%20Get%20Detail%20Create%20Doctor%20Request.md)
 - [x] [Integration UI Detail Create Doctor Request to API Approval Create Doctor Request](Doctor-Create-Request-Approval/Integration%20UI%20Detail%20Create%20Doctor%20Request%20to%20API%20Approval%20Create%20Doctor%20Request.md)
 #### 5.1.2 BE
 - [ ] Create API Get List Create Doctor Request
