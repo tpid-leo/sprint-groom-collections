@@ -31,7 +31,7 @@ description: "Grooming CMS Doctor: Patient Log, Create, Update, and History Requ
 ### 4.1 CMS
 #### 4.1.1 FE
 - [Create UI Doctor Detail Patient Log](Feature-Doctor-Patient-Log/Create%20UI%20Doctor%20Detail%20Patient%20Log.md)
-- [Integrate UI with Api](2026-02-23-Sprint-6/Feature-Doctor-Patient-Log/Integrate%20UI%20with%20Api.md)
+- [Integrate UI Doctor Detail Tab Patient Log to API Download Booking List](Feature-Doctor-Patient-Log/Integrate%20UI%20Doctor%20Detail%20Tab%20Patient%20Log%20to%20API%20Download%20Booking%20List.md)
 #### 4.1.2 BE
 - API Get List Doctor Patient Log
 
