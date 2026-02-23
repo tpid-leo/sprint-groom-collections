@@ -40,11 +40,11 @@ description: "Grooming CMS Doctor: Patient Log, Create, Update, and History Requ
 ## 5. Doctor Create Request Approval (alfara, agung, leo, lutfi, anwar)
 ### 5.1 CMS
 #### 5.1.1 FE
-- [ ] Create UI List Create Doctor Request
-- [ ] Integration UI List Create Doctor Request to API Get List Create Doctor Request
-- [ ] Create UI Detail Create Doctor Request
-- [ ] Integration UI Detail Create Doctor Request to API Get Detail Create Doctor Request
-- [ ] Integration UI Detail Create Doctor Request to API Approval Create Doctor Request
+- [x] Create UI List Create Doctor Request
+- [x] Integration UI List Create Doctor Request to API Get List Create Doctor Request
+- [x] Create UI Detail Create Doctor Request
+- [x] Integration UI Detail Create Doctor Request to API Get Detail Create Doctor Request
+- [x] Integration UI Detail Create Doctor Request to API Approval Create Doctor Request
 #### 5.1.2 BE
 - [ ] Create API Get List Create Doctor Request
 - [ ] Create API Get Detail Create Doctor Request
