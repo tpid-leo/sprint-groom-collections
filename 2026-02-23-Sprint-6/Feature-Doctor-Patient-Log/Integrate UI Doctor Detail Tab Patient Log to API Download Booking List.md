@@ -13,6 +13,5 @@ Menampilkan seluruh daftar pasien dengan doctor terkait. Fitur yang terkait deng
 * **Search:** Tampilkan data yang sesuai dengan inputan search.
 * **Filter:** Tampilkan data sesuai dengan filter yang ada outlet, status.
 * **Excel/CSV:** Download data sesuai dengan yang tampil di dalam list.
-* **
 ## 4. API Needs
 * `API Get List Doctor Patient Log` - Mengambil list data pasien
