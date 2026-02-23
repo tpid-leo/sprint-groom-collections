@@ -3,7 +3,8 @@
 ## 1. Overview
 Menampilkan seluruh daftar pasien dengan doctor terkait.
 ## 2. Requirement Visual
-### * Patient Log
+* Patient Log
+
 ![image-patient-log](../assets/patient-log.png)
 ## 3. Logic UI / UX
 * **Loading State:** Muncul *skeleton loader* pada tabel saat *fetching* data.
