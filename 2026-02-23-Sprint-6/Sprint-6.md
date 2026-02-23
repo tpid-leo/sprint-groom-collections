@@ -23,15 +23,15 @@ description: "Grooming CMS Doctor: Patient Log, Create, Update, and History Requ
 - [6. Doctor Update Request Approval](#6-doctor-update-request-approval-alfara-agung-leo-lutfi-anwar)
 - [7. Doctor History Update Request Approval](#7-doctor-history-update-request-approval-alfara-aldhi-agung-leo-lutfi-anwar)
 
--![](../Pasted%20image%2020260223113312.png)
+![Grooming Image](01-Sprints/2026-02-23/Attachments/Pasted%20image%2020260223111945.png)
 
 ---
 
 ## 4. Doctor (Tono, Yusuf, Leo, Redy, lutfi)
 ### 4.1 CMS
 #### 4.1.1 FE
-- [ ] [Create UI](Create%20UI.md)
-- [ ] [Integrate UI with Api](Integrate%20UI%20with%20Api.md)
+- [ ] [Create UI](01-Sprints/2026-02-23/Feature-Doctor-Patient-Log/Create-UI.md)
+- [ ] [Integrate UI with Api](01-Sprints/2026-02-23/Feature-Doctor-Patient-Log/Integrate-UI-with-Api.md)
 #### 4.1.2 BE
 - [ ] API Get List Doctor Patient Log
 
