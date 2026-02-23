@@ -9,6 +9,6 @@ Menampilkan seluruh daftar pasien dengan doctor terkait.
 ## 3. Logic UI / UX
 * **Loading State:** Muncul *skeleton loader* pada tabel saat *fetching* data.
 * **Empty State:** Tampilkan ilustrasi "Data Kosong" jika array kembalian API kosong.
-* **Error Handling:** Tampilkan *toast alert* warna merah jika API mengembalikan status 400/500.
+* **Error Handling:** Tampilkan *toast alert* warna merah jika API mengembalikan status 400.
 ## 4. API Needs
 * `API Get List Doctor Patient Log` - Mengambil list data pasien
