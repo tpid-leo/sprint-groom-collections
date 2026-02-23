@@ -1,4 +1,15 @@
+# Folder internal Obsidian yang isinya cache dan metadata tampilan
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/appearance.json
+
+# Folder sampah Obsidian
 .trash/
+
+# File sistem operasi
 .DS_Store
+Thumbs.db
+
+# Log file
+*.log
