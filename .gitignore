@@ -1,6 +1,20 @@
-# Folder internal Obsidian yang isinya cache dan metadata tampilan
+
+# Abaikan seluruh folder .obsidian
+.obsidian/
+
+# TAPI jangan abaikan file/folder penting berikut (Pengecualian)
+!.obsidian/plugins/
+!.obsidian/themes/
+!.obsidian/snippets/
+!.obsidian/app.json
+!.obsidian/hotkeys.json
+!.obsidian/core-plugins.json
+
+
+# Tetap abaikan file yang bikin konflik di dalam folder penting tadi
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/plugins/*/data.json
 .obsidian/graph.json
 .obsidian/appearance.json
 
