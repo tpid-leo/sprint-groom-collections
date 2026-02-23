@@ -30,7 +30,7 @@ description: "Grooming CMS Doctor: Patient Log, Create, Update, and History Requ
 ## 4. Doctor (Tono, Yusuf, Leo, Redy, lutfi)
 ### 4.1 CMS
 #### 4.1.1 FE
-- [Create UI](01-Sprints/2026-02-23/Feature-Doctor-Patient-Log/Create-UI.md)
+- [Create UI](Feature-Doctor-Patient-Log/Create%20UI%20Doctor%20Detail%20Patient%20Log.md)
 - [Integrate UI with Api](2026-02-23-Sprint-6/Feature-Doctor-Patient-Log/Integrate%20UI%20with%20Api.md)
 #### 4.1.2 BE
 - API Get List Doctor Patient Log
