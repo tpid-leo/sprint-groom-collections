@@ -1,6 +1,6 @@
 # Create UI Detail Create Doctor Request
 ## 1. Overview
-Menampilkan data berisi 
+Menampilkan data request yang digunakan untuk membuat data doctor baru. Ada 2 sisi yaitu sebagai 'Maker' dan 'Approval'
 ## 2. Requirement Visual
 - **Tampilan User Maker**
 
