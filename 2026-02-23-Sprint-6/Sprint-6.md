@@ -23,7 +23,7 @@ description: "Grooming CMS Doctor: Patient Log, Create, Update, and History Requ
 - [6. Doctor Update Request Approval](#6-doctor-update-request-approval-alfara-agung-leo-lutfi-anwar)
 - [7. Doctor History Update Request Approval](#7-doctor-history-update-request-approval-alfara-aldhi-agung-leo-lutfi-anwar)
 
-![Grooming Image](../Pasted%20image%2020260223111945.png)
+![Grooming Image](../Pasted%20image%2020260223113312.png)
 
 ---
 
