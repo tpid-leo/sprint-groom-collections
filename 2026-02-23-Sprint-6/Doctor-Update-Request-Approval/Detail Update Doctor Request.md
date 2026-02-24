@@ -1,6 +1,6 @@
 # Detail Update Doctor Request
 ## Overview
-Menampilkan data request update yang digunakan untuk membuat data doctor baru. Ada 2 sisi yaitu sebagai 'Maker' dan 'Approval'. 
+Menampilkan data request update yang digunakan untuk membuat data doctor baru. Ada 2 sisi yaitu sebagai 'Maker' dan 'Approval'. Use Approval dapat melakukan update aproval request yang akan di edit.
 ## Requirement Visual
 - **Tampilan User Maker Request Update Detail Info**
 
