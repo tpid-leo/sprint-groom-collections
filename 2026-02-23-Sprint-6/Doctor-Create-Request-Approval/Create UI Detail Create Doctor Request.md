@@ -7,7 +7,7 @@ Menampilkan data request yang digunakan untuk membuat data doctor baru. Ada 2 si
 	![](../assets/use-maker.png)
 - **Tampilan User Approval**
 
-	![](../../Pasted%20image%2020260223153707.png)
+	![](../assets/user-approve.png)
 ## 3. Logic UI / UX
-- **Loading:** Saat melakukan load halaman maka berikan loader spinner.
+- **Loading:** Saat load halaman maka berikan loader spinner.
 - **Maker/Approval:** Tampilan request didapat dari role pada user yang sedang login(jwt, session).
