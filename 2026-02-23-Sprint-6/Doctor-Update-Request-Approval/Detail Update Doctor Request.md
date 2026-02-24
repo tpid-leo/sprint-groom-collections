@@ -1,8 +1,7 @@
-# Create UI Detail Update Doctor Request
-## 1. Overview
+# Detail Update Doctor Request
+## Overview
 Menampilkan data request update yang digunakan untuk membuat data doctor baru. Ada 2 sisi yaitu sebagai 'Maker' dan 'Approval'. 
-## 2. Requirement Visual
-### 2.1 User Maker
+## Requirement Visual
 - **Tampilan User Maker Request Update Detail Info**
 
 	![](../assets/update-request-doctor-info.png)
@@ -21,8 +20,6 @@ Menampilkan data request update yang digunakan untuk membuat data doctor baru. A
 	 
 	![](../assets/update-request-off-doctor.png)
 
-- **Tampilan User Maker Request Update Time Off**
-### 2.1 User Aprroval
 - **Tampilan User Approve Approval Update Detail Info**
 
 	![](../assets/update-approval-info-doctor.png)
@@ -47,14 +44,17 @@ Menampilkan data request update yang digunakan untuk membuat data doctor baru. A
 
 	![](../assets/update-approval-off-doctor.png)
 
-- **Tampilan User Approval Modal Confirmation**
+- **Tampilan User Approval Modal Confirmation**  
   
-  ![](../assets/update-approval-confirmation.png)
+	![](../assets/update-approval-confirmation.png)
 - **Tampilan User Approval Reject Modal Confirmation**
   
     ![](../assets/empty-modal-reject-state.png)
 	![](../assets/filled-state-modal-confirm.png)
-## 3. Logic UI / UX
+	
+- **Tampilan User Approval Reject Modal Confirmation**
+## Logic and UI/UX
 - **Loading:** Saat load halaman maka berikan loader spinner.
 - **Maker** Tampilan request didapat dari role pada user yang sedang login(jwt, session).
 - **Approval:** Tampilan request didapat dari role pada user yang sedang login(jwt, session) dan memiliki action button.
+## API Needs
