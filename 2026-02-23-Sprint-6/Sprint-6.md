@@ -70,7 +70,7 @@ description: "Grooming CMS Doctor: Patient Log, Create, Update, and History Requ
 ## 7. Doctor History Update Request Approval (alfara, aldhi, agung, leo, lutfi, anwar)
 ### 7.1 CMS
 #### 7.1.1 FE
-- [Create UI List History Update Doctor Request](Doctor-History-Update-Req-Approval/Create UI List History Update Doctor Request.md)
+- [Create UI List History Update Doctor Request](Doctor-History-Update-Req-Approval/Create%20UI%20List%20History%20Update%20Doctor%20Request.md)
 - [Integration UI List History Update Doctor Request to API List History Update Doctor Request](Doctor-History-Update-Req-Approval/Integration%20UI%20List%20History%20Update%20Doctor%20Request%20to%20API%20List%20History%20Update%20Doctor%20Request.md)
 - [Create UI Detail History Update Doctor Request](Doctor-History-Update-Req-Approval/Create%20UI%20Detail%20History%20Update%20Doctor%20Request.md)
 - [Integration UI Detail History Update Doctor Request to API Detail History Update Doctor Request](Doctor-History-Update-Req-Approval/Integration%20UI%20Detail%20History%20Update%20Doctor%20Request%20to%20API%20Detail%20History%20Update%20Doctor%20Request.md)
