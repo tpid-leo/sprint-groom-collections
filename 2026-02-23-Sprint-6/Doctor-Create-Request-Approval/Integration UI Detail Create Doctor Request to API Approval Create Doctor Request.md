@@ -15,8 +15,8 @@ Menampilkan modal yang beirisi ringkasan data request create yang akan di konfir
 	![](../assets/reject-filled-state.png)
 ## 3. Logic UI / UX
 - **Loading:** Saat melakukan load halaman maka berikan loader spinner.
-- **Button Approve:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan appove confirmation.
-- **Button Reject:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan reject confirmation.
+- **Button Approve:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan appove confirmation, setelah success maka akan kembali ke list awal.
+- **Button Reject:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan reject confirmation, setelah success maka akan kembali ke list awal.
 ## 4. API Needs
 - `API Approval Create Doctor Request`
 - `API Reject Create Doctor Request blom terdefine mas bintang`
