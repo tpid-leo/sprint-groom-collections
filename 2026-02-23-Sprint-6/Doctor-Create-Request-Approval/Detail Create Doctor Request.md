@@ -24,6 +24,8 @@ Menampilkan data request create yang digunakan untuk membuat data doctor baru. A
 ## Logic UI / UX
 - **Loading:** Saat melakukan load halaman maka berikan loader spinner.
 - **Maker/Approval:** Tampilan UI request didapat dari key role pada user yang sedang login( melalui jwt, session).
+- **Button Approve:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan approve confirmation yang berisi data apa saja yang akan terupdate, setelah success maka akan kembali ke list awal.
+- **Button Reject:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan reject confirmation., , setelah success maka akan kembali ke list awal
 ## API Needs
 - `API Get Detail Create Doctor Request`
 -  `API Approval Create Doctor Request`
