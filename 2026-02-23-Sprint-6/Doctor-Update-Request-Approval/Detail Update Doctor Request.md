@@ -56,5 +56,10 @@ Menampilkan data request update yang digunakan untuk membuat data doctor baru. A
 ## Logic and UI/UX
 - **Loading:** Saat load halaman maka berikan loader spinner.
 - **Maker** Tampilan request didapat dari role pada user yang sedang login(jwt, session).
-- **Approval:** Tampilan request didapat dari role pada user yang sedang login(jwt, session) dan memiliki action button.
+- **Approval:** Tampilan request didapat dari role pada user yang sedang login(jwt, session), memiliki action button dan backgorund form yang berbeda.
+-  **Button Approve:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan approve confirmation yang berisi data apa saja yang akan terupdate, setelah success maka akan kembali ke list awal.
+- **Button Reject:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan reject confirmation., , setelah success maka akan kembali ke list awal
 ## API Needs
+- `API Approval Update Doctor Request`
+- `API Reject Update Doctor Request blom terdefine mas bintang`
+- `API Get Detail Update Doctor Request`
