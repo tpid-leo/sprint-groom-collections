@@ -52,10 +52,8 @@ description: "Grooming CMS Doctor: Patient Log, Create, Update, and History Requ
 ### 6.1 CMS
 #### 6.1.1 FE
 - [Create UI List Update Doctor Request](Doctor-Update-Request-Approval/Detail%20Update%20Doctor%20Request.md)
-- [Integration UI List Update Doctor Request to API Get List Update Doctor Request](Doctor-Update-Request-Approval/Integration%20UI%20List%20Update%20Doctor%20Request%20to%20API%20Get%20List%20Update%20Doctor%20Request.md)
 - [Detail Update Doctor Request](Doctor-Update-Request-Approval/Detail%20Update%20Doctor%20Request.md)
-- [Integration UI Detail Update Doctor Request to API Get Detail Update Doctor Request](Doctor-Update-Request-Approval/Integration%20UI%20Detail%20Update%20Doctor%20Request%20to%20API%20Get%20Detail%20Update%20Doctor%20Request.md)
-- [Integration UI Detail Update Doctor Request to API Approval Update Doctor Request](Doctor-Update-Request-Approval/Integration%20UI%20Detail%20Update%20Doctor%20Request%20to%20API%20Approval%20Update%20Doctor%20Request.md)
+  
 #### 6.1.2 BE
 - Create API Get List Update Doctor Request
 - Create API Get Detail Update Doctor Request
