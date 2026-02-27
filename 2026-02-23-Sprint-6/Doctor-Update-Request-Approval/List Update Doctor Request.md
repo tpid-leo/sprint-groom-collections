@@ -15,3 +15,19 @@ UI ini menampilkan list request update yang dilakukan oleh doctor untuk memperba
 - **Search:** menampilkan data list sesuai dengan inputan search.
 ## API Needs
 - `API Get List Update Doctor Request`
+	**Method:** `GET`  
+	**Endpoint:** `{base-url}/api/v1/cms/doctors/requested-update`
+
+### Header
+
+| Key | Type | Rule |
+| :--- | :--- | :--- |
+| `Authorization` | `string` | • Mandatory |
+
+### Request Parameter
+
+| Key | Type | Rule |
+| :--- | :--- | :--- |
+| `page` | `int` | • Optional<br>• Default: 1 |
+| `limit` | `int` | • Optional<br>• Default: 10 |
+| `search` | `string` | • Optional<br>• Search by doctor_name |
