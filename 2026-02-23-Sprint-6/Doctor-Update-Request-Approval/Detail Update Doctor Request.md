@@ -61,5 +61,21 @@ Menampilkan data request update yang digunakan untuk membuat data doctor baru. A
 - **Button Reject:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan reject confirmation., , setelah success maka akan kembali ke list awal
 ## API Needs
 - `API Approval Update Doctor Request`
-- `API Reject Update Doctor Request blom terdefine mas bintang`
+	- **Method : POST**
+	- **Endpoint : {base-url}/v1/cms/doctors/requested-update/:requestUUID/approval**
+	- **Request :**
+	    - Type : Request Body
+    | **Key** | **Type** | **Rule** |
+	| --- | --- | --- |
+	| action | string | • Mandatory
+	• Value only : `APPROVE` dan  `REJECT`  |
+	| reason | string | • Optional
+	• Required If `action` = `REJECT` |
+	| reason_description | string | • Optional
+	• Required If `reason` != `null` |
+	| action_by_uuid | string | • Mandatory
+	• valid uuid format |
+	| action_by_name | string | • Mandatory
+	• valid uuid format |
+
 - `API Get Detail Update Doctor Request`
