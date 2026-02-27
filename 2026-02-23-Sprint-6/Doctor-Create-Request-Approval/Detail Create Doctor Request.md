@@ -28,8 +28,8 @@ Menampilkan data request create yang digunakan untuk membuat data doctor baru. A
 - **Button Reject:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan reject confirmation., , setelah success maka akan kembali ke list awal
 ## API Needs
 - `API Get Detail Schedule Create Doctor Request`(https://tpid.atlassian.net/wiki/spaces/FR/pages/818020403/API+Get+List+Weekly+Doctor+Schedule)
-	**Endpoint:** `{base_url}/api/v1/cms/doctors/:doctorUUID/weekly-schedules`
 
+  	**Endpoint:** (GET) `{base_url}/api/v1/cms/doctors/:doctorUUID/weekly-schedules`
 	### Header
 	
 	| Key | Type | Rule |
