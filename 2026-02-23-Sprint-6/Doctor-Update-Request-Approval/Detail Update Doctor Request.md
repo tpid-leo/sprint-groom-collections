@@ -59,23 +59,78 @@ Menampilkan data request update yang digunakan untuk membuat data doctor baru. A
 - **Approval:** Tampilan request didapat dari role pada user yang sedang login(jwt, session), memiliki action button dan backgorund form yang berbeda.
 -  **Button Approve:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan approve confirmation yang berisi data apa saja yang akan terupdate, setelah success maka akan kembali ke list awal.
 - **Button Reject:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan reject confirmation., , setelah success maka akan kembali ke list awal
+- **Table:** Jika ada perbedaan 
+
 ## API Needs
+- `API Get Detail Update Doctor Request`
+  	**Method:** `GET`  
+	**Endpoint:** `{base-url}/api/v1/cms/doctors/requested-update/:requestUUID`
+
+### Header
+
+| Key | Type | Rule |
+| :--- | :--- | :--- |
+| `Authorization` | `string` | • Mandatory |
+
+
+
 - `API Approval Update Doctor Request`
 	- **Method : POST**
-	- **Endpoint : {base-url}/v1/cms/doctors/requested-update/:requestUUID/approval**
+	- **Endpoint : {base-url}/api/v1/cms/doctors/requested-update/:requestUUID/approval**
 	- **Request :**
 	    - Type : Request Body
-    | **Key** | **Type** | **Rule** |
-	| --- | --- | --- |
-	| action | string | • Mandatory
-	• Value only : `APPROVE` dan  `REJECT`  |
-	| reason | string | • Optional
-	• Required If `action` = `REJECT` |
-	| reason_description | string | • Optional
-	• Required If `reason` != `null` |
-	| action_by_uuid | string | • Mandatory
-	• valid uuid format |
-	| action_by_name | string | • Mandatory
-	• valid uuid format |
 
-- `API Get Detail Update Doctor Request`
+| Key | Type | Rule |
+| :--- | :--- | :--- |
+| `action` | `string` | • Mandatory<br>• Value only: `APPROVE` dan `REJECT` |
+| `reason` | `string` | • Optional<br>• Required If `action` = `REJECT` |
+| `reason_description` | `string` | • Optional<br>• Required If `reason` != `null` |
+| `action_by_uuid` | `string` | • Mandatory<br>• Valid uuid format |
+| `action_by_name` | `string` | • Mandatory<br>• Valid uuid format |
+- **200 (Success)**
+
+```json
+{
+  "api_id": "API_CALL_......",
+  "status": "SUCCESS",
+  "message": "Success approval data",
+  "data": null,
+  "meta": null
+}
+```
+
+- **400 (Bad request)**
+
+```json
+{
+    "api_id": "API_CALL_1770622356143236_5900547",
+    "status": "BAD_REQUEST",
+    "message": "Invalid payload data",
+    "data": null,
+    "meta": null
+}
+```
+
+- **401 (Unauthorized)**
+
+```json
+{
+    "api_id": "API_CALL_1770728356143236_5900547",
+    "status": "UNAUTHORIZED",
+    "message": "Authentication Failed",
+    "data": null,
+    "meta": null
+}
+```
+
+- **422 (Something went wrong)**
+
+```json
+{
+    "api_id": "API_CALL_1770623899145819_6412567",
+    "status": "FAILED",
+    "message": "Something Went Wrong",
+    "data": null,
+    "meta": null
+}
+```
