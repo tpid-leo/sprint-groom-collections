@@ -15,7 +15,7 @@ UI ini menampilkan list request update history yang dilakukan oleh doctor dan un
 - **Search:** menampilkan data list sesuai dengan inputan search.
 ## API Needs
 - `API Get List History Update Doctor Request`
-	- **Endpoint : {base-url}/api/v1/cms/doctors/requested-update/history**
+	- **Endpoint : (GET) {base-url}/api/v1/cms/doctors/requested-update/history**
 	- **Header :**
    ### Header
 	| Key | Type | Rule |
