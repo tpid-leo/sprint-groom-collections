@@ -27,6 +27,37 @@ Menampilkan data request create yang digunakan untuk membuat data doctor baru. A
 - **Button Approve:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan approve confirmation yang berisi data apa saja yang akan terupdate, setelah success maka akan kembali ke list awal.
 - **Button Reject:** Saat klik button tersebut maka akan muncul modal sesuai dengan tampilan reject confirmation., , setelah success maka akan kembali ke list awal
 ## API Needs
-- `API Get Detail Create Doctor Request`
--  `API Approval Create Doctor Request`
-- `API Reject Create Doctor Request blom terdefine mas bintang`
+- `API Get Detail Schedule Create Doctor Request`(https://tpid.atlassian.net/wiki/spaces/FR/pages/818020403/API+Get+List+Weekly+Doctor+Schedule)
+
+  	**Endpoint:** (GET) `{base_url}/api/v1/cms/doctors/:doctorUUID/weekly-schedules`
+	### Header
+	
+	| Key | Type | Rule |
+	| :--- | :--- | :--- |
+	| `Authorization` | `string bearer` | Mandatory. Check on middleware |
+	
+	### Request Parameter
+	
+	| Key | Type | Rule |
+	| :--- | :--- | :--- |
+	| `doctorUUID` | `string` | Mandatory. Format: UUID |
+
+
+-  `API Approval Create Doctor Request`(https://tpid.atlassian.net/wiki/spaces/FR/pages/775749635/API+Approval+Request+Doctor)
+	**Endpoint:** `{base-url}/v1/cms/doctors/requested/:doctorUUID/approval`  
+	**Method:** `POST`  
+	**Content-Type:** `application/json`
+
+	### 2.1. URL Parameter
+
+	| Key | Tipe Data | Aturan Validasi | Keterangan |
+	| :--- | :--- | :--- | :--- |
+	| `:doctorUUID` | `string` | • Mandatory<br>• Harus format UUID | UUID unik dari dokter yang akan diproses. |
+	
+	### 2.2. Request Body
+	
+	| Key | Tipe Data | Aturan Validasi | Keterangan |
+	| :--- | :--- | :--- | :--- |
+	| `action` | `string` | • Mandatory<br>• Nilai harus: APPROVE or REJECT | Tindakan yang akan diambil. |
+	| `accepted_by_uuid` | `uuid` | Mandatory | UUID dari pengguna (admin) yang melakukan approval/rejection. |
+	| `accepted_by_name` | `string` | Mandatory | Nama dari pengguna (admin) yang melakukan approval/rejection. |
