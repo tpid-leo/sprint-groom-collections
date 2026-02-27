@@ -62,7 +62,7 @@ Menampilkan data request update yang digunakan untuk membuat data doctor baru. A
 - **Table:** Jika ada perbedaan 
 
 ## API Needs
-- `API Get Detail Update Doctor Request`
+- ### `API Get Detail Update Doctor Request`
   	**Method:** `GET`  
 	**Endpoint:** `{base-url}/api/v1/cms/doctors/requested-update/:requestUUID`
 
@@ -74,7 +74,7 @@ Menampilkan data request update yang digunakan untuk membuat data doctor baru. A
 
 
 
-- `API Approval Update Doctor Request`
+- ### `API Approval Update Doctor Request`
 	- **Method : POST**
 	- **Endpoint : {base-url}/api/v1/cms/doctors/requested-update/:requestUUID/approval**
 	- **Request :**
