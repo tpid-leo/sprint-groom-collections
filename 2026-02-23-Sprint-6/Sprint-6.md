@@ -51,7 +51,7 @@ description: "Grooming CMS Doctor: Patient Log, Create, Update, and History Requ
 ## 6. Doctor Update Request Approval (alfara, agung, leo, lutfi, anwar)
 ### 6.1 CMS
 #### 6.1.1 FE
-- [Create UI List Update Doctor Request](Doctor-Update-Request-Approval/Detail%20Update%20Doctor%20Request.md)
+- [Create UI List Update Doctor Request (Sudah diimplement task ini di takeout)](Doctor-Update-Request-Approval/Detail%20Update%20Doctor%20Request.md)
 - [Detail Update Doctor Request](Doctor-Update-Request-Approval/Detail%20Update%20Doctor%20Request.md)
   
 #### 6.1.2 BE
